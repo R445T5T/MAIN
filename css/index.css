@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    transition: all .5s;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+.type ul li{
+    cursor: pointer;
+}
+.type ul li .over{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+}
+.type ul li h4{
+    font-size: 15px;
+    font-weight: bold;
+}
+.type ul li.active,
+.type ul li:hover{
+    box-shadow: 0px 15px 20px -15px black;
+    transform: translateY(-10px);
+}
+.foods .food-type{
+    border: 1px dashed black;
+    width: 90%;
+}
+.foods .food-type .item{
+    width: 80%;
+    margin: auto;
+    border-width: 0px 0px 1px 0px !important;
+}
+.foods .food-type .item h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+.foods .food-type .item span{
+    height: 1px;
+    width: 80%;
+    background-color: #888; 
+}
+.foods .food-type .item h5{
+    font-size: 15px;
+    font-style: italic;
+}
+.foods .food-type .item p{
+    text-align: left !important;
+}
